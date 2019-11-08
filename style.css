@@ -4,6 +4,9 @@
     --titleBlack:#666;
     --goldGrad:linear-gradient(to left, #ae8625 , #f7ef8a, #d2ac47);
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0;
     margin: 0;
