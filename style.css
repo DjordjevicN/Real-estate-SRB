@@ -104,24 +104,14 @@ a{
 /* HEADER end  */
 /* SEARCH  */
 
-.search-title{
-    text-align: center;
-    color: var(--silverLightTitle);
-    font-size: 40px;
-    padding: 100px 0 ;
-}
-.search-title span{
-    background: linear-gradient(to right,#eac688, #eac688,  #b49057);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .search-wrapper{
     border-radius: 8px;
     box-shadow: 2px 2px 2px 2px #aaaaaa50;
     width: 90%;
-    margin: 0 auto;
+    margin: -100px auto;
     background-image: linear-gradient(to right
-    , rgb(80, 80, 80),rgb(155, 155, 155),rgb(41, 41, 41));
+    , rgb(49, 49, 49),rgb(66, 66, 66),rgb(77, 77, 77));
 
     /* background-image: linear-gradient(to right
     , rgb(235, 215, 126),rgb(216, 172, 78),rgb(231, 216, 150)); */
@@ -136,6 +126,7 @@ a{
 }
 .search p{
     margin: 0;
+    color: white;
 }
 .search input{
     padding: 10px 40px;
@@ -146,20 +137,31 @@ a{
     border-radius: 10px;
 }
 .btn-search{
-    color:rgb(0, 0, 0);
+    color: white;
    background-image:linear-gradient(to right,#eac688, #eac688,  #b49057);
     padding: 10px 45px;
     border-radius: 10px;
 }
+/* SEARCH GALLERY  */
+.search-gallery{
+    margin-top: 150px;
+}
+
+
+
+
+
 /* GALLERY  */
 .gallery-title{
     text-align: center;
     color: var(--silverLightTitle);
     font-size: 40px;
-    padding: 100px 0 ;
+    padding: 100px 0 50px 0 ;
+    
 }
 .gallery-title span{
     color: var(--titleBlack);
+    border-bottom: 2px solid silver;
 }
 .gallery{
     text-align: center;
@@ -196,12 +198,7 @@ a{
     color: var(--titleBlack);
     padding: 10px 0 20px 0 ;
 }
-/* .card-border{
-    margin: 0 auto;
-    background-color: var(--silverLightTitle);
-    width: 90%;
-    height: 2px;
-} */
+
 .card-icons{
    
     background-image: linear-gradient(to top, rgb(182, 182, 182),rgb(219, 219, 219),rgb(228, 228, 228));
@@ -273,15 +270,46 @@ a{
     padding-top: 30%;
     line-height: 30px;
 }
+.contact-title{
+    background: linear-gradient(to right,#eac688, #eac688,  #5e4a29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact li{
+    color: rgb(196, 196, 196);
+}
 
 .our-promises{
     padding-top: 30%;
     line-height: 30px;
 }
+.our-promises li{
+    color: rgb(196, 196, 196);
+}
+.promises-title{
+    background: linear-gradient(to right,#eac688, #eac688,  #5e4a29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .our-social{
     padding-top: 30%;
     line-height: 40px;
+}
+.social-title{
+    background: linear-gradient(to right,#eac688, #eac688,  #5e4a29);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.our-social li{
+  
+    color: rgb(196, 196, 196);
+    cursor: pointer;
+    
+}
+.our-social li:hover{
+    color:white;
 }
 
 
