@@ -1,7 +1,7 @@
 :root{
-    --whiteTitle:#fff;
-    --silverLightTitle:rgb(177, 177, 177);
-    --titleBlack:#666;
+    --whiteTitle:rgb(255, 255, 255);
+    --silverLightTitle:rgb(255, 255, 255);
+    --titleBlack:rgb(255, 255, 255);
     --goldGrad:linear-gradient(to left, #ae8625 , #f7ef8a, #d2ac47);
 }
 html{
@@ -13,6 +13,7 @@ body{
 
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    background: rgb(0, 0, 0);
 }
 li {
     list-style: none;
@@ -114,7 +115,7 @@ a{
 }
 .search-wrapper{
     border-radius: 8px;
-    box-shadow: 2px 2px 2px 2px #aaaaaa50;
+    box-shadow: 2px 2px 2px 2px #ffffff50;
     width: 90%;
     margin: 0 auto;
 }
@@ -128,6 +129,7 @@ a{
 }
 .search p{
     margin: 0;
+    color: var(--whiteTitle);
 }
 .search input{
     padding: 10px 40px;
@@ -161,7 +163,7 @@ a{
     grid-gap: 20px;
 }
 .property-card{
-    border: 1px solid #aaaaaa50;
+    border: 1px solid #41414150;
     line-height: 10px;
 }
 .property-card img{
@@ -182,6 +184,7 @@ a{
 }
 .card-title{
     font-size: 25px;
+    color: var(--whiteTitle);
 }
 .property-address{
     color: var(--titleBlack);
@@ -213,6 +216,9 @@ a{
      padding: 10px 40px;
      border-radius: 10px;
      cursor: pointer;
+}
+.card-icons{
+    color: white;
 }
 /* ABOUT  */
 .about-wrapper{
